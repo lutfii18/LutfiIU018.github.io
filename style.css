@@ -249,18 +249,20 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ABDAB9", en
   width: 50%;
   position: relative;
   display: flex;
-  margin: 0 auto;
+  gap: 80px;
+  margin-left: -50px;
 }
 
 .footer-section {
   width: 15%;
   justify-content: center;
-  margin-left: 80px;
+  margin-left: 100px;
   margin-bottom: 200px;
 }
 
 .footer-section p {
   font-size: 12px;
+  width: 230%;
   color: #000000;
 }
 
@@ -299,8 +301,12 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ABDAB9", en
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    width: 400px;
+    width: 450px;
     line-break: auto;
+  }
+  .footer-section .text-brand5 {
+    margin-left: 50px;
+    text-align: center;
   }
   .wrapper{
     width: 100%;
